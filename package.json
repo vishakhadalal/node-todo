@@ -4,6 +4,11 @@
   "description": "Simple todo application.",
   "main": "server.js",
   "author": "Scotch",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo \"Building project...\" && mkdir -p dist && cp -r * dist/",
+    "test": "echo \"No tests defined\" && exit 0"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "mongoose": "4.10.8",
